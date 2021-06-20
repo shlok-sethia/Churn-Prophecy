@@ -35,16 +35,29 @@ Dataset
 It consists of 10000 observations and 12 variables. Independent variables contain information about customers. Dependent variable refers to customer abandonment status.
 ### Variables:
 **RowNumber** — corresponds to the record (row) number and has no effect on the output.
+
 **CustomerId** — contains random values and acts as a primary key which is unique for each customer. 
+
 **Surname** — the surname of a customer.
+
 **CreditScore** — customers credit score, can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank.
+
 **Geography** — a customer’s location.
+
 **Gender** — customers gender.
+
 **Age** — this is certainly relevant, since older customers are less likely to leave their bank than younger ones.
+
 **Tenure** — refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank.
+
 **Balance** — gives the balance in the account. A very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances.
+
 **NumOfProducts** — refers to the number of products that a customer has purchased through the bank.
+
 **HasCrCard** — denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank. (0=No,1=Yes)
+
 **IsActiveMember** — categorical column suggesting ifa customer is an active user or not. Active customers are less likely to leave the bank. (0=No,1=Yes)
+
 **EstimatedSalary** — estimated salary of an individual, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
+
 **Exited** — whether or not the customer has left the bank. This is what we have to predict. (0=No,1=Yes)
