@@ -61,3 +61,26 @@ It consists of 10000 observations and 12 variables. Independent variables contai
 **EstimatedSalary** — estimated salary of an individual, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
 
 **Exited** — whether or not the customer has left the bank. This is what we have to predict. (0=No,1=Yes)
+
+Solution
+------------
+From the above problem statement, it's clear that it will be a **Binary Classification** problem.
+
+The solution is developed using **Python Jupyter Notebook**:
+
+The solution code is divided into the following sections:
+
+* Data Statistics and Exploratory Data Analytics(EDA)
+* Data Vizualization
+* Data Preprocessing & Feature Engineering
+* Modelling & Feature Importance
+    * Logistic Regression
+    * KNN
+    * Decision Trees
+    * Random Forest
+    * SVM
+    * XGBoost 
+    * LightGBM
+    * CatBoost
+* Grid Search & Model Tuning
+* Confusion/Evaluation Matrix and ROC Curve
